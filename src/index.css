@@ -1,13 +1,95 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+        margin: 0;
+        padding: 0;
+        background-color: #138BFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#ilk{
+    width: 500px;
+    background-color: #00376C;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
 }
+
+#orta {
+    display: flex;
+    background-color: #7BBEFF;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    font-size: large;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: #00376C;
+    font-size: large;
+    font-weight: bold;
+}
+
+#orta input{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    
+
+}
+
+#orta input:focus{
+    outline: none;
+}
+
+#son{
+    
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#son button{
+    height: 40px;
+    background-color: #00376C;
+    color: white;
+    border: 1px solid #00376C;
+    border-radius: 15px;
+    
+}
+
+#son button:hover{
+    background-color: #7BBEFF;
+    color: #00376C;
+    border: 1px solid #00376C;
+}
+
+#son button:active{
+    background-color: #00376C;
+    color: white;
+}
+
+#son button:focus{
+    outline: none;
+}
+
+#son button:disabled{
+    background-color: #00376C;
+    color: white;
+    opacity: 0.5;
+} 
